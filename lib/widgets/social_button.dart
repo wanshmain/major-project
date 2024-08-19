@@ -12,7 +12,8 @@ class SocialButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextButton.icon(
-      onPressed: () {},
+      onPressed: () {
+      },
       icon: SvgPicture.asset(iconPath, width: 25, color: Pallete.whiteColor),
       label: Text(
         label,

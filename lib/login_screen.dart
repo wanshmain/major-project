@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:major_project/widgets/gradient_button.dart';
+import 'package:major_project/widgets/gradient_button1.dart';
+import 'package:major_project/widgets/gradient_button2.dart';
 import 'package:major_project/widgets/login_field.dart';
 import 'package:major_project/widgets/social_button.dart';
 
@@ -35,7 +36,7 @@ class LoginScreen extends StatelessWidget {
               ),
               const SocialButton(
                 iconPath: 'assets/svgs/f_logo.svg',
-                label: 'Continue with Facebook',
+                label: 'Continue with Phone no.',
                 horizontalPadding: 90,
               ),
               const SizedBox(
@@ -63,7 +64,9 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              const GradientButton(),
+              const GradientButton1(),
+              const SizedBox(height: 15,),
+              const GradientButton2(),
             ],
           ),
         ),
